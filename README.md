@@ -1,4 +1,4 @@
-# rovarspraket Translator
+# Rovarspraket Translator
 This is a demo project that translates from plane English to rovarspraket.
 Info about Rovarspraket : https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket
 
