@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { check, validationResult } = require("express-validator");
-const { normalToRov, rovToNormal } = require('../components/roverspraket');
+const { normalToRov, rovToNormal } = require('../components/rovarspraket');
 const axios = require('axios');
 
 

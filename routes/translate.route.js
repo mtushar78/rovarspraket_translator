@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { check, validationResult } = require("express-validator");
-const {normalToRov, rovToNormal} = require('../components/roverspraket')
+const {normalToRov, rovToNormal} = require('../components/rovarspraket')
 
 router.post(
     "/normal",
@@ -14,10 +14,10 @@ router.post(
                 error: error.array(),
             });
         }
-        let roverspraket = normalToRov(req.body.text);
+        let rovarspraket = normalToRov(req.body.text);
 
         return res.json({
-            roverspraket: roverspraket
+            rovarspraket: rovarspraket
         });
     }
 );
@@ -34,10 +34,10 @@ router.post(
         }
 
         let text = req.body.text;
-        // let roverspraket = '';
-        let roverspraket = rovToNormal(text);
+        // let rovarspraket = '';
+        let rovarspraket = rovToNormal(text);
         return res.json({
-            translation: roverspraket
+            translation: rovarspraket
         });
 
     }
