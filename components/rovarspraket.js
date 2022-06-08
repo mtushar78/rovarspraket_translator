@@ -3,11 +3,6 @@ function rovToNormal(text) {
     let rovarspraket = text;
     let i = 0;
     while (rovarspraket.charAt(i + 2) !== "") {
-        // console.log('i= ' + i)
-        // console.log('i: ' + rovarspraket.charAt(i))
-        // console.log('i+1: ' + rovarspraket.charAt(i + 1))
-        // console.log('i+2: ' + rovarspraket.charAt(i + 2))
-        // console.log('after : ' + rovarspraket)
         if (!(/^[aeiou]$/i).test(rovarspraket.charAt(i))
             && rovarspraket.charAt(i) === rovarspraket.charAt(i + 2)
             && rovarspraket.charAt(i + 1) === 'o') {
