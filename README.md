@@ -10,7 +10,7 @@ Info about Rovarspraket : https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket
 # Sample Request & Response
 * /translate/normal.
 
-  This is a `POST` Method that takes `application/json` and responds to the request with `application/json`.
+  This is a `POST` Method that takes `application/json` and sends response as `application/json`.
 
 
 ```
@@ -28,7 +28,7 @@ Info about Rovarspraket : https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket
 
 * /translate/rovarsprak.
 
-  This is a `POST` Method that takes `application/json` and sends response `application/json`.
+  This is a `POST` Method that takes `application/json` and sends response as `application/json`.
 
 
 ```
