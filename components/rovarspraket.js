@@ -25,9 +25,7 @@ function rovToNormal(text) {
 }
 
 function normalToRov(text) {
-    // let text = req.body.text;
     let rovarspraket = '';
-    // console.log(text.slice(0,3));
     for (let i = 0; i < text.length; i++) {
         if ((/^[aeiou]$/i).test(text.charAt(i)) || text.charAt(i) === " " || text.charAt(i) === "," || text.charAt(i) === ".") {
             //if vowel
@@ -35,7 +33,6 @@ function normalToRov(text) {
             rovarspraket = rovarspraket + text.charAt(i);
         }
         else {
-            // stubborn => sostotubobboborornon
             console.log('from else: ' + text.charAt(i))
             rovarspraket = rovarspraket + text.charAt(i) + 'o' + text.charAt(i);
             console.log('sliced: ' + rovarspraket);
