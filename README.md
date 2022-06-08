@@ -44,7 +44,7 @@ This is a demo project that translates from plane English to Roverspraket.
 
 * /jokes.
 
-  This is a `GET` that sends response `application/json`.
+  This is a `GET` method that sends response `application/json`.
 
 ```
     Response:
